@@ -1,0 +1,50 @@
+/*노말라이즈*/
+html > body{
+  list-style: none;
+}
+
+/*커스텀*/
+.con {
+  max-width: 1200px;
+  border: 2px solid black;
+}
+div > header {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  background-color: #fca5a5;
+  padding: 10px;
+}
+section {
+  display: flex;
+}
+nav {
+  background-color: #fcd34d;
+  flex-shrink: 0;
+  width: 140px;
+}
+nav > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  transition: ease-out .3s;
+}
+nav > li:hover > a {
+  background-color: #008b8b;
+}
+main {
+  background-color: #93C5fd;
+}
+aside {
+  background-color: #9ca3af;
+  flex-shrink: 0;
+  padding: 10px;
+}
+footer {
+  background-color: #34d399;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
